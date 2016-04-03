@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:900);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+//  COLORS
+@brandcolor: #c73e3e;
+@brandcolordark: @brandcolor - #333;
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  background: #fff;
+  color: #999;
+}
+
+a {
+  color: @brandcolor;
+}
+
+
+h1, h2, h3, h4, h5 , h6 {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: @brandcolor;
+}
+
+
+
+.reset-padding {
+  padding: 0;
+}
+
+.head {
+  color: #fff;
+  width: 100%;
+
+  .container {
+    background: @brandcolor;
+  }
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 20px 0 16px;
+  line-height: 20px;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.item, .home .item:last-child {
+  margin-bottom: 70px;
+}
+
+.home .item {
+  margin-bottom: 130px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.home .headline {
+  display: none;
+}
+
+
+.item-content-img {
+  margin: 0 0 30px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.item-cta {
+  text-align: center;
+}
+
+.wp-pagenavi {
+  text-align: center;
+
+  .pages {
+    display: none;
+  }
+
+  .current, .page, .nextpostslink  {
+    border-radius: 100px;
+    border: none;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #ddd;
+    color: #999;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  span.current {
+    color: #fff;
+    background: @brandcolor;
+    font-weight: 400;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 30px 0;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+
+    li {
+
+    }
+  }
+}
